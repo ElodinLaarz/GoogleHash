@@ -1,0 +1,110 @@
+]0;~/GIT/GoogleHash[01;34m~/GIT/GoogleHash[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m(CS)Books_Alg2.ipynb[m
+	[31m.(1Cg) PhotoAlbumPractice.ipynb-0.term[m
+	[31m.(1Cg) PhotoAlbumPractice.ipynb.sage-jupyter2[m
+	[31m.term.term-0.term[m
+	[31m2020-02-20-151939.zip[m
+	[31m2020-02-20-152919.zip[m
+	[31m2020-02-20-154444.zip[m
+	[31m2020-02-21-102851.zip[m
+	[31m2020-02-21-104439.zip[m
+	[31mQual2017.py[m
+	[31mQual2018.py[m
+	[31mScorer.py[m
+	[31mSeth_Caleb_Books.py[m
+	[31ma_in[m
+	[31ma_out.out[m
+	[31mb_out.out[m
+	[31mbiased_selector.py[m
+	[31mblackbox.py[m
+	[31mc_out.out[m
+	[31md_out.out[m
+	[31mdata/a_example.txt[m
+	[31mdata/b_read_on.txt[m
+	[31mdata/c_incunabula.txt[m
+	[31mdata/d_tough_choices.txt[m
+	[31mdata/e_so_many_books.txt[m
+	[31mdata/f_libraries_of_the_world.txt[m
+	[31mdata/old_data/[m
+	[31me_out.out[m
+	[31mf_out.out[m
+	[31mpractice_files/[m
+	[31mscorer.py[m
+	[31mterm.term[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/GIT/GoogleHash[01;34m~/GIT/GoogleHash[00m$ git pull
+remote: Enumerating objects: 35, done.[K
+remote: Counting objects:   2% (1/35)[Kremote: Counting objects:   5% (2/35)[Kremote: Counting objects:   8% (3/35)[Kremote: Counting objects:  11% (4/35)[Kremote: Counting objects:  14% (5/35)[Kremote: Counting objects:  17% (6/35)[Kremote: Counting objects:  20% (7/35)[Kremote: Counting objects:  22% (8/35)[Kremote: Counting objects:  25% (9/35)[Kremote: Counting objects:  28% (10/35)[Kremote: Counting objects:  31% (11/35)[Kremote: Counting objects:  34% (12/35)[Kremote: Counting objects:  37% (13/35)[Kremote: Counting objects:  40% (14/35)[Kremote: Counting objects:  42% (15/35)[Kremote: Counting objects:  45% (16/35)[Kremote: Counting objects:  48% (17/35)[Kremote: Counting objects:  51% (18/35)[Kremote: Counting objects:  54% (19/35)[Kremote: Counting objects:  57% (20/35)[Kremote: Counting objects:  60% (21/35)[Kremote: Counting objects:  62% (22/35)[Kremote: Counting objects:  65% (23/35)[Kremote: Counting objects:  68% (24/35)[Kremote: Counting objects:  71% (25/35)[Kremote: Counting objects:  74% (26/35)[Kremote: Counting objects:  77% (27/35)[Kremote: Counting objects:  80% (28/35)[Kremote: Counting objects:  82% (29/35)[Kremote: Counting objects:  85% (30/35)[Kremote: Counting objects:  88% (31/35)[Kremote: Counting objects:  91% (32/35)[Kremote: Counting objects:  94% (33/35)[Kremote: Counting objects:  97% (34/35)[Kremote: Counting objects: 100% (35/35)[Kremote: Counting objects: 100% (35/35), done.[K
+remote: Compressing objects:   5% (1/19)[Kremote: Compressing objects:  10% (2/19)[Kremote: Compressing objects:  15% (3/19)[Kremote: Compressing objects:  21% (4/19)[Kremote: Compressing objects:  26% (5/19)[Kremote: Compressing objects:  31% (6/19)[Kremote: Compressing objects:  36% (7/19)[Kremote: Compressing objects:  42% (8/19)[Kremote: Compressing objects:  47% (9/19)[Kremote: Compressing objects:  52% (10/19)[Kremote: Compressing objects:  57% (11/19)[Kremote: Compressing objects:  63% (12/19)[Kremote: Compressing objects:  68% (13/19)[Kremote: Compressing objects:  73% (14/19)[Kremote: Compressing objects:  78% (15/19)[Kremote: Compressing objects:  84% (16/19)[Kremote: Compressing objects:  89% (17/19)[Kremote: Compressing objects:  94% (18/19)[Kremote: Compressing objects: 100% (19/19)[Kremote: Compressing objects: 100% (19/19), done.[K
+Unpacking objects:   3% (1/29)   Unpacking objects:   6% (2/29)   Unpacking objects:  10% (3/29)   Unpacking objects:  13% (4/29)   Unpacking objects:  17% (5/29)   Unpacking objects:  20% (6/29)   Unpacking objects:  24% (7/29)   Unpacking objects:  27% (8/29)   Unpacking objects:  31% (9/29)   Unpacking objects:  34% (10/29)   Unpacking objects:  37% (11/29)   Unpacking objects:  41% (12/29)   Unpacking objects:  44% (13/29)   Unpacking objects:  48% (14/29)   Unpacking objects:  51% (15/29)   Unpacking objects:  55% (16/29)   Unpacking objects:  58% (17/29)   Unpacking objects:  62% (18/29)   Unpacking objects:  65% (19/29)   Unpacking objects:  68% (20/29)   Unpacking objects:  72% (21/29)   Unpacking objects:  75% (22/29)   remote: Total 29 (delta 13), reused 26 (delta 10), pack-reused 0[K
+Unpacking objects:  79% (23/29)   Unpacking objects:  82% (24/29)   Unpacking objects:  86% (25/29)   Unpacking objects:  89% (26/29)   Unpacking objects:  93% (27/29)   Unpacking objects:  96% (28/29)   Unpacking objects: 100% (29/29)   Unpacking objects: 100% (29/29), done.
+From https://github.com/ElodinLaarz/GoogleHash
+   b354a2b..8ac70ad  master     -> origin/master
+Updating b354a2b..8ac70ad
+Fast-forward
+ (1Cg) PhotoAlbumPractice.ipynb                          |    205 [32m+[m[31m-[m
+ (1Sc) Practice2019.ipynb                                |    179 [32m+[m[31m-[m
+ (1Sc) Qualification 2017.ipynb                          |    108 [32m+[m
+ (2Cg)RandomAlphabetSort.ipynb                           |    123 [32m+[m
+ (3Cg)Dijkstra.ipynb                                     |    138 [32m+[m
+ data/qualification_round_2017/kittens.in.txt            | 552883 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ data/qualification_round_2017/me_at_the_zoo.in          |    144 [32m+[m
+ data/qualification_round_2017/trending_today.in         | 110102 [32m++++++++++++++++++++++++++++++[m
+ data/qualification_round_2017/videos_worth_spreading.in | 100623 [32m+++++++++++++++++++++++++++[m
+ 9 files changed, 764352 insertions(+), 153 deletions(-)
+ create mode 100644 (1Sc) Qualification 2017.ipynb
+ create mode 100644 (2Cg)RandomAlphabetSort.ipynb
+ create mode 100644 (3Cg)Dijkstra.ipynb
+ create mode 100644 data/qualification_round_2017/kittens.in.txt
+ create mode 100644 data/qualification_round_2017/me_at_the_zoo.in
+ create mode 100644 data/qualification_round_2017/trending_today.in
+ create mode 100644 data/qualification_round_2017/videos_worth_spreading.in
+]0;~/GIT/GoogleHash[01;34m~/GIT/GoogleHash[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m(CS)Books_Alg2.ipynb[m
+	[31m.(1Cg) PhotoAlbumPractice.ipynb-0.term[m
+	[31m.(1Cg) PhotoAlbumPractice.ipynb.sage-jupyter2[m
+	[31m.term.term-0.term[m
+	[31m2020-02-20-151939.zip[m
+	[31m2020-02-20-152919.zip[m
+	[31m2020-02-20-154444.zip[m
+	[31m2020-02-21-102851.zip[m
+	[31m2020-02-21-104439.zip[m
+	[31mQual2017.py[m
+	[31mQual2018.py[m
+	[31mScorer.py[m
+	[31mSeth_Caleb_Books.py[m
+	[31ma_in[m
+	[31ma_out.out[m
+	[31mb_out.out[m
+	[31mbiased_selector.py[m
+	[31mblackbox.py[m
+	[31mc_out.out[m
+	[31md_out.out[m
+	[31mdata/a_example.txt[m
+	[31mdata/b_read_on.txt[m
+	[31mdata/c_incunabula.txt[m
+	[31mdata/d_tough_choices.txt[m
+	[31mdata/e_so_many_books.txt[m
+	[31mdata/f_libraries_of_the_world.txt[m
+	[31mdata/old_data/[m
+	[31me_out.out[m
+	[31mf_out.out[m
+	[31mpractice_files/[m
+	[31mscorer.py[m
+	[31mterm.term[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/GIT/GoogleHash[01;34m~/GIT/GoogleHash[00m$ git 

@@ -1,0 +1,50 @@
+]0;~/GIT/GoogleHash[01;34m~/GIT/GoogleHash[00m$ ls
+'(1Cg) PhotoAlbumPractice.ipynb'  '(1Sc) Importing Files.ipynb'  '(1Sc) Practice2019.ipynb'  '(2Sc) Pizza Recursion Deterministic.ipynb'   README.md   [0m[01;34mdata[0m   elodin_practice_pizza.ipynb
+]0;~/GIT/GoogleHash[01;34m~/GIT/GoogleHash[00m$ vim (1C[C'(1C[C[C[Cg) PhotoAlbumPractice.ipynb' 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;48r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[48;1H"(1Cg) PhotoAlbumPractice.ipynb" [noeol] 328L, 10099C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;130m  1 [m{
+[38;5;130m  2 [m "cells": [
+[38;5;130m  3 [m  {
+[38;5;130m  4 [m   "cell_type": "code",
+[38;5;130m  5 [m   "execution_count": 1,
+[38;5;130m  6 [m   "metadata": {
+[38;5;130m  7 [m    "collapsed": false
+[38;5;130m  8 [m   },
+[38;5;130m  9 [m   "outputs": [
+[38;5;130m 10 [m   ],
+[38;5;130m 11 [m   "source": [
+[38;5;130m 12 [m    "import numpy as np\n",
+[38;5;130m 13 [m    "\n",
+[38;5;130m 14 [m    "from typing import NamedTuple\n",
+[38;5;130m 15 [m    "\n",
+[38;5;130m 16 [m    "from collections import defaultdict"
+[38;5;130m 17 [m   ]
+[38;5;130m 18 [m  },
+[38;5;130m 19 [m  {
+[38;5;130m 20 [m   "cell_type": "code",
+[38;5;130m 21 [m   "execution_count": 2,
+[38;5;130m 22 [m   "metadata": {
+[38;5;130m 23 [m    "collapsed": false
+[38;5;130m 24 [m   },
+[38;5;130m 25 [m   "outputs": [
+[38;5;130m 26 [m   ],
+[38;5;130m 27 [m   "source": [
+[38;5;130m 28 [m    "with open('data/qualification_round_2019/c_memorable_moments.txt') as file:\n",
+[38;5;130m 29 [m    "    lines = file.read().splitlines()\n",
+[38;5;130m 30 [m    "\n",
+[38;5;130m 31 [m    "NUMSLIDES = lines[0]\n",
+[38;5;130m 32 [m    "RAW_SLIDES = [line.split() for line in lines[1:]]\n",
+[38;5;130m 33 [m    "\n",
+[38;5;130m 34 [m    "class Slide(NamedTuple):\n",
+[38;5;130m 35 [m    "    type: str\n",
+[38;5;130m 36 [m    "    len: int\n",
+[38;5;130m 37 [m    "    tags: set\n",
+[38;5;130m 38 [m    "    ordered_tags: list\n",
+[38;5;130m 39 [m    "\n",
+[38;5;130m 40 [m    "slides = [Slide(slide[0], int(slide[1]), set(slide[2:]), sorted(slide[2:])) for slide in RAW_SLIDES]"
+[38;5;130m 41 [m   ]
+[38;5;130m 42 [m  },
+[38;5;130m 43 [m  {
+[38;5;130m 44 [m   "cell_type": "code",
+[38;5;130m 45 [m   "execution_count": 3,
+[38;5;130m 46 [m   "metadata": {
+[38;5;130m 47 [m    "collapsed": false[48;198H1,1[11CTop[1;5H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p
